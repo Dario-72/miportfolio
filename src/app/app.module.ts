@@ -9,7 +9,6 @@ import { EducationComponent } from './education/education.component';
 import { SkillsComponent } from './skills/skills.component';
 import { ProyectsComponent } from './proyects/proyects.component';
 import { Routes, RouterModule } from '@angular/router';
-import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 const appRoutes: Routes = [
   { path: '', component: HomeComponent },
@@ -27,7 +26,7 @@ const appRoutes: Routes = [
     SkillsComponent,
     ProyectsComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule, RouterModule.forRoot(appRoutes), FontAwesomeModule],
+  imports: [BrowserModule, AppRoutingModule, RouterModule.forRoot(appRoutes)],
   providers: [],
   bootstrap: [AppComponent],
 })
