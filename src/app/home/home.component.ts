@@ -23,4 +23,4 @@ var SI = setInterval(function () {
   if (counter == str.length) {
     clearInterval(SI);
   }
-}, 40);
+}, 90);
