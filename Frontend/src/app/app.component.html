@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <title>Dario Cavalieri</title>
+  </head>
+  <body>
+    <!-- Barra de navegacion -->
+    <header id="row">
+      <div class="row">
+        <div class="col-6">
+          <span>
+            <img src="./assets/logo.png" height="45" />
+            Argentina Programa - #YoProgramo
+          </span>
+        </div>
+        <div class="container">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#proyects">Proyects</a></li>
+            <li class="dropdown" style="float: right">
+              <a href="javascript:void(0)" class="dropbtn">Redes</a>
+              <div class="dropdown-content">
+                <a
+                  href="https://www.facebook.com/profile.php?id=100002835158035"
+                  target="_blank"
+                  ><i class="fa fa-facebook-official fa-2x"></i
+                ></a>
+                <a
+                  href="https://www.instagram.com/cavalieri.dario/"
+                  target="_blank"
+                  ><i class="fa fa-instagram fa-2x"></i>
+                </a>
+                <a
+                  href="https://github.com/Dario-72?tab=repositories"
+                  target="_blank"
+                  ><i class="fa fa-github-alt fa-2x"></i>
+                </a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <app-home></app-home>
+    <app-experience></app-experience>
+    <app-education></app-education>
+    <app-skills></app-skills>
+    <app-proyects></app-proyects>
+  </body>
+</html>

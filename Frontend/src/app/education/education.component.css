@@ -1,0 +1,31 @@
+.row {
+  padding: 20px;
+  background-color: rgb(122, 184, 199);
+}
+ul {
+  list-style-type: none;
+  background-color: rgb(122, 184, 199);
+  color: rgb(7, 7, 7);
+}
+h1,
+h3 {
+  display: inline;
+}
+.container-fluid {
+  background-color: rgb(122, 184, 199);
+  display: grid;
+}
+.logoraggio {
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid black;
+  float: left;
+  width: 80px;
+}
+.logoutn {
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid black;
+  float: left;
+  width: 80px;
+}
